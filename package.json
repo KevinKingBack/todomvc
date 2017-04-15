@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "dependencies": {
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "vue": "^2.2.6"
+  },
+  "name": "todomvc",
+  "description": "> Template used for creating [TodoMVC](http://todomvc.com) apps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --directory --files \"index.html, js/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tastejs/todomvc-app-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tastejs/todomvc-app-template/issues"
+  },
+  "homepage": "https://github.com/tastejs/todomvc-app-template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
